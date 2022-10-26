@@ -27,3 +27,31 @@ comment: |-
 F4piA6hjtK-nRlpERsD1uQOevgsxU_HzoyLtQOKC9El0tdhOxC22vS15SiedgEIY8Ij0fz5mZQzUYMIJiUs5Dg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2022-10-26T16:22:08.790665+08:00
+from:
+  id-type: crev
+  id: _Y8MetA5kBAku0hT16qKcH2r0opSMQjUH-F1XUSrZW4
+  url: https://github.com/pmembrey/crev-proofs
+package:
+  source: https://crates.io
+  name: lightway-sys
+  version: 0.1.0
+  revision: 026aafcf8f6c9f48d9a55adea6617ad37e220b98
+  digest: A0DhSGTrX1J5cSr-T8Ht936c7AD03GB3exzE0CsPeDA
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  I'm the owner of this crate and wrote the originally C library that this binding is for.
+  
+  This is a Rust binding based on [Lightway Core](https://github.com/expressvpn/lightway-core).
+  
+  Lightway Core is publically audited as is embedded in this crate.
+----- SIGN CREV PROOF -----
+LVUPW7U3Us9RC5lB0TvK22PXSlwbiBaOH02PPMZDn1FEgUx0a6xWOB8FFDHdVo2CtzhVuAdYeTi87Ir2qjv3BA
+----- END CREV PROOF -----
+
